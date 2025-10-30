@@ -1,7 +1,13 @@
 
 department = input("Enter the department name \n")
 
-instance_number = input("Enter the number of instances to create \n")
+instance_number = (input("Enter the number of instances to create \n"))
+if a.isdigit():
+    a = int(a)
+
+else:
+    print("Please enter a integer value")
+
 
 import random
 import string
