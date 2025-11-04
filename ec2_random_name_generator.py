@@ -45,6 +45,6 @@ for x in range(instance_number):
     # Add three more random characters to make 4 total
     random_character = random_character + random.choice(characters) + random.choice(characters) + random.choice(characters)
     # Combine department name with random characters
-    ec2_name = department + random_character
+    ec2_name = department + "-" + random_character
     # Print the generated EC2 instance name
     print(ec2_name)
